@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Door Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Magic Door Adventure</h1>
+        <p>Embark on an exciting journey by choosing doors that lead to different adventures. Your choices shape the story!</p>
+    </header>
+
+    <main>
+        <section id="story">
+            <h2>Welcome to the Magic Door Adventure!</h2>
+            <p>You find yourself in a mysterious hallway with three magical doors. Each door leads to a unique adventure. Choose wisely!</p>
+        </section>
+
+        <section id="choices">
+            <div class="door">
+                <form action="door1.php" method="get">
+                    <button type="submit">
+                        <img src="door1.png" alt="Door 1">
+                        <p>Door 1</p>
+                    </button>
+                </form>
+            </div>
+            <div class="door">
+                <form action="door2.php" method="get">
+                    <button type="submit">
+                        <img src="door2.png" alt="Door 2">
+                        <p>Door 2</p>
+                    </button>
+                </form>
+            </div>
+            <div class="door">
+                <form action="door3.php" method="get">
+                    <button type="submit">
+                        <img src="door3.png" alt="Door 3">
+                        <p>Door 3</p>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section id="instructions">
+            <h3>How to Play</h3>
+            <p>Select a door to begin your adventure. Each choice takes you to a new part of the story. To start over, refresh the page or click the "Restart" button at any time.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Magic Door Adventure. All rights reserved.</p>
+    </footer>
+</body>
+</html>

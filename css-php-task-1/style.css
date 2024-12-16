@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #0f3460;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#choices {
+    display: flex;
+    justify-content: center; /* Centers doors horizontally */
+    align-items: center;    /* Aligns doors vertically */
+    gap: 20px;              /* Spacing between doors */
+    margin-top: 20px;
+}
+
+.door {
+    text-align: center;
+    flex: 1;                /* Ensures doors are evenly spaced */
+    max-width: 200px;
+}
+
+.door img {
+    width: 100%;            /* Make the image responsive */
+    max-width: 150px;       /* Limit the max width of the image */
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.door img:hover {
+    transform: scale(1.1);  /* Adds a hover effect */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #e94560;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ef233c;
+}
